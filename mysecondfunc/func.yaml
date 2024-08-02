@@ -1,0 +1,9 @@
+specVersion: 0.36.0
+name: mysecondfunc
+runtime: typescript
+created: 2024-08-02T08:46:26.2945474-07:00
+invoke: cloudevent
+build:
+  buildEnvs:
+  - name: BP_NODE_RUN_SCRIPTS
+    value: build
